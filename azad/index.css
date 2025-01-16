@@ -1,0 +1,10 @@
+.arrow{
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg) !important;
+    top: -13px;
+}
+.accordion-button::after {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
