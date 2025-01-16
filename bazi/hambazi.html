@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+
+<body>
+
+    <!--سربرگ سایت-->
+    <div class="d-flex bg-warning justify-content-between align-items-center">
+        <h3 class="text-center text-dark flex-grow-1">دنبال همبازی میگردی؟</h3>
+        <h3 class="text-end text-white position-relative">
+            همبازی شو
+            <span class="text-danger position-absolute fs-6" style="left:-20px;">جدید</span>
+        </h3>
+    </div>
+<!--منو سایت-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-block pt-3 pt-lg-0 shadow">
+        <div class="container-fluid justify-content-center justify-content-sm-between">
+            <div class="d-flex align-items-center gap-2 mb-3 mb-sm-0">
+                <button class="btn btn-primary rounded-pill">ورود مدیران</button>
+                <button class="btn btn-primary rounded-pill">ورود / عضویت</button>
+                <button class="btn btn-outline-primary rounded-pill">همکاری باما</button>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                    <li class="nav-item py-2">
+                        <a class="nav-link" href="#">بلاگ</a>
+                    </li>
+                    <li class="nav-item py-2">
+                        <a class="nav-link" href="#">فروشنده</a>
+                    </li>
+                    <li class="nav-item py-2 ">
+                        <a class="nav-link" href="#">همبازی</a>
+                    </li>
+                    <!--لیست کشویی-->
+                    <li class="nav-item dropdown py-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            برنامه های ورزشی
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="#">برنامه چاقی</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="#">برنامه لاغری</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown py-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            مربی های ورزشی
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="#">فوتبال</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="#">بکس</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown py-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            کلاس های ورزشی
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="#">بکس</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="#">فوتبال</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown py-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            مجموعه های ورزشی
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="#">سالن سرفرازان</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="#">مجموعه تختی</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="container-fluid mt-3">
+            <input type="search" class="form-control w-25 d-none d-lg-block" placeholder="جستجو">
+            <input type="search" class="form-control w-100 d-block d-lg-none" placeholder="جستجو">
+            <ul class="d-flex flex-wrap justify-content-between gap-4 w-100 list-unstyled ms-0 ms-lg-5 mt-3 mt-lg-0">
+                <li>
+                    <a href="#" class=" text-secondary">کلاس بدن‌سازی</a>
+                </li>
+                <li>
+                    <a href="#" class=" text-secondary">کلاس پیلاتس</a>
+                </li>
+                <li>
+                    <a href="#" class=" text-secondary">کلاس یوگا</a>
+                </li>
+                <li>
+                    <a href="#" class="text-secondary">زمین تنیس</a>
+                </li>
+                <li>
+                    <a href="#" class=" text-secondary">چمن مصنوعی</a>
+                </li>
+                <li>
+                    <a href="#" class=" text-secondary">سالن فوتسال</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container mt-3">
+        <div class="d-flex flex-wrap justify-content-around border rounded-3">
+            <div class="d-flex flex-column align-items-center">
+                <img src="soccer-player-illustration_274619-575.jpg" class="w-100" alt="football" height="250">
+                <button class="btn bg-success mb-2 text-white">یافتن همبازی</button>
+            </div>
+            <div class="d-none d-lg-flex my-2">
+                <div class="vr"></div>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <img src="1347506-ورزشکار-والی.jpg" class="w-100" alt="football" height="250">
+                <button class="btn bg-success mb-2 text-white">درخواست همبازی</button>
+            </div>
+        </div>
+
+        <div class=" rounded-3 mt-3 py-4 px-3">
+            <p class="text-end">
+                <span class="fw-bold">سرویس همبازی</span>
+                صرفا برای یافتن بازیکنان هم رده در رشته های مختلف ورزشی طراحی شده است و فعلا استفاده از آن
+                <span class="fw-bold">رایگان</span>
+                می باشد
+            </p>
+            <p class="text-end">
+                در صورتی که میخواهید آگهی خود را حذف نمایید از صفحه 
+                <span class="fw-bold">پنل کاربری</span>
+                خود اقدام نمایید
+            </p>
+            <p class="text-end">
+                <span class="fw-bold">آسان اسپرت</span>
+                هیچ گونه مسئولیتی در قبال افراد و تیم های معرفی شده به همدیگر ندارد و کلیه مسئولیت ها به عهده
+                <span class="fw-bold">طرفین</span>
+                است لطفا در این رابطه دقت نمایید
+            </p>
+            <p class="text-end">
+               اطلاعات هویتی شما به منظور برقراری ارتباط داخل درخواست نمایش داده می شود لطفا اطلاعات را با دقت تکمیل نمایید
+            </p>
+        </div>
+    </div>
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
